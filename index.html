@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind config style -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <!-- google fonts -->
+</head>
+<body>
+    <button class="btn btn-primary">Click here</button>
+    <div class="card w-96 glass">
+        <figure><img src="images/pic5.jpg" alt="car!"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Life hack</h2>
+          <p>How to park your car at your garage?</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Learn now!</button>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
